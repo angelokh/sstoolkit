@@ -38,4 +38,10 @@
  */
 + (void)resetLimitForName:(NSString *)name;
 
+/**
+ Resets all limits.
+ 
+ */
++ (void)resetAllLimits;
+
 @end

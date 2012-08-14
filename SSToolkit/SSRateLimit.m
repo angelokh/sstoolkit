@@ -41,6 +41,9 @@
 	[[self _dictionary] removeObjectForKey:name];
 }
 
++ (void)resetAllLimits {
+	[[self _dictionary] removeAllObjects];
+}
 
 #pragma mark - Private
 
